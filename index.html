@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Greetings Change Using Javascript</title>
+</head>
+
+<body>
+
+    <!-- Main Wrapper  -->
+    <div class="container">
+        <div class="heading"><span id="greetings">Hello</span> <span id="name">Rohit Patil</span></div><br><hr>
+        <div class="blocks">
+            <button class="btn" id="gm" onclick="goodMorning()">Good Morning!</button>
+            <button class="btn" id="ge" onclick="goodEvening()">Good Evening!</button>
+            <button class="btn" id="gn" onclick="goodNight()">Good Night!</button>
+        </div>
+    </div>
+
+    <!-- Javascript code  -->
+    <script>
+        var greetingsRef = document.getElementById('greetings');
+        var nameRef = document.getElementById('name');
+        function goodMorning(){
+            greetingsRef.innerText = "Good Morning"
+            nameRef.innerText = "Rohit Patil"
+        }
+
+        function goodEvening(){
+            greetingsRef.innerText = "Good Evening"
+            nameRef.innerText = "Rohit Patil"
+        }
+
+        function goodNight(){
+            greetingsRef.innerText = "Good Night"
+            nameRef.innerText = "Rohit Patil"
+        }
+
+
+    </script>
+
+</body>
+
+</html>

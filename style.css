@@ -1,0 +1,67 @@
+html{
+    font-size: 10px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(rgb(77, 76, 76),rgb(255, 255, 255));
+    background-repeat: no-repeat;
+    height: 77.5vh;
+}
+.container{
+    height: 50vh;
+    width: 70vw;
+    background-color:bisque;
+    margin:15rem auto;
+    background-color: rgb(11, 51, 58);
+    box-shadow: 0 0 10px white;
+    border-radius:3rem;
+}
+
+.heading{
+    font-size: 5rem;
+    font-weight: 800;
+    text-align: center;
+    padding: 1rem;
+}
+#greetings{
+    color: rgb(227, 243, 0);
+}
+
+#name{
+    color:rgb(255, 0, 221); 
+}
+.blocks{
+    text-align: center;
+}
+.btn{
+    padding: 3rem;
+    height: 10rem;
+    width: 25rem;
+    margin:7rem 2rem;
+    border:none;
+    font-size: 2rem;
+    box-shadow: 0 0 10px;
+    border-radius: 2rem;
+}
+
+
+#gm{
+    background-color: turquoise;
+}
+#gm:hover{
+    background-color: rgb(20, 182, 182);
+}
+#ge{
+    background-color: darkgoldenrod;
+}
+#ge:hover{
+    background-color: rgb(199, 165, 15);
+}
+#gn:hover{
+    background-color: rgb(120, 241, 50);
+}
